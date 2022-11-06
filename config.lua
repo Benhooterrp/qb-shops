@@ -20,7 +20,7 @@ Config.fontawesome = {
 
 Config.Locations = {
     -- 24/7 Locations
-    ["247supermarket"] = {
+    ["Mining"] = {
         ["label"] = "Mine",
         ["coords"] = vector3(2951.58, 2756.66, 43.48),
         ["ped"] = 'mp_m_shopkeep_01',
@@ -28,7 +28,7 @@ Config.Locations = {
         ["radius"] = 1.5,
         ["targetIcon"] = "fas fa-shopping-basket",
         ["targetLabel"] = "Open Shop",
-        ["showblip"] = true,
+        ["showblip"] = false,
         ["blipsprite"] = 52,
         ["blipcolor"] = 0
     },
