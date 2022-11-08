@@ -20,7 +20,7 @@ Config.fontawesome = {
 
 Config.Locations = {
     -- 24/7 Locations
-    ["Mining"] = {
+    ["247supermarket"] = {
         ["label"] = "Mine",
         ["coords"] = vector3(2951.58, 2756.66, 43.48),
         ["ped"] = 'mp_m_shopkeep_01',
@@ -266,46 +266,6 @@ Config.Locations = {
         ["targetLabel"] = "Open Shop",
         ["showblip"] = true,
         ["blipsprite"] = 52,
-        ["blipcolor"] = 0
-    },
-
-    -- Hardware Store Locations
-    ["hardware"] = {
-        ["label"] = "Hardware Store",
-        ["coords"] = vector4(45.68, -1749.04, 29.61, 53.13),
-        ["ped"] = 'mp_m_waremech_01',
-        ["scenario"] = "WORLD_HUMAN_CLIPBOARD",
-        ["radius"] = 1.5,
-        ["targetIcon"] = "fas fa-wrench",
-        ["targetLabel"] = "Open Hardware Store",
-        ["showblip"] = true,
-        ["blipsprite"] = 402,
-        ["blipcolor"] = 0
-    },
-
-    ["hardware2"] = {
-        ["label"] = "Hardware Store",
-        ["coords"] = vector4(2747.71, 3472.85, 55.67, 255.08),
-        ["ped"] = 'mp_m_waremech_01',
-        ["scenario"] = "WORLD_HUMAN_CLIPBOARD",
-        ["radius"] = 1.5,
-        ["targetIcon"] = "fas fa-wrench",
-        ["targetLabel"] = "Open Hardware Store",
-        ["showblip"] = true,
-        ["blipsprite"] = 402,
-        ["blipcolor"] = 0
-    },
-
-    ["hardware3"] = {
-        ["label"] = "Hardware Store",
-        ["coords"] = vector4(-421.83, 6136.13, 31.88, 228.2),
-        ["ped"] = 'mp_m_waremech_01',
-        ["scenario"] = "WORLD_HUMAN_CLIPBOARD",
-        ["radius"] = 1.5,
-        ["targetIcon"] = "fas fa-wrench",
-        ["targetLabel"] = "Hardware Store",
-        ["showblip"] = true,
-        ["blipsprite"] = 402,
         ["blipcolor"] = 0
     },
 
