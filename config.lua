@@ -33,17 +33,17 @@ Config.Locations = {
         ["blipcolor"] = 0
     },
 
-    ["247supermarket2"] = {
-        ["label"] = "Beach Shop",
-        ["coords"] = vector4(-1299.19, -1381.95, 4.48, 94.06),
-        ["ped"] = 'mp_m_shopkeep_01',
+    ["fishing"] = {
+        ["label"] = "Millars Fishary",
+        ["coords"] = vector4(-1593.27, 5197.28, 4.36, 22.53),
+        ["ped"] = 'hc_gunman',
         ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
         ["radius"] = 1.5,
         ["targetIcon"] = "fas fa-shopping-basket",
-        ["targetLabel"] = "Open Shop",
+        ["targetLabel"] = "Sell Fishing Stuff",
         ["showblip"] = true,
-        ["blipsprite"] = 197,
-        ["blipcolor"] = 7
+        ["blipsprite"] = 410,
+        ["blipcolor"] = 3
     },
 
     ["247supermarket3"] = {

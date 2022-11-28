@@ -54,10 +54,10 @@ RegisterNetEvent("shop:server:Buy", function(amount, data)
 	local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local money = amount*data.price
-    local playermoney = Player.PlayerData.money['cash']
+    local playermoney = Player.PlayerData.money['bank']
     if tonumber(data.amount) >= amount then
         if tonumber(playermoney) >= money then
-            Player.Functions.RemoveMoney('cash', money)
+            Player.Functions.RemoveMoney('bank', money)
             Player.Functions.AddItem(data.item, amount)
             TriggerClientEvent('QBCore:Notify', src,Lang:t("success.buy_b").." "..amount.. " "..QBCore.Shared.Items[data.item].label.." "..Lang:t("success.for_b").." "..money.. "$")   
             local result = MySQL.query.await('SELECT * FROM shops_data WHERE shop = ?', {data.shop})
